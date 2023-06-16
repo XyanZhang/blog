@@ -5,7 +5,7 @@ const announcementBarContent = ''
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '愧怍的小站',
+  title: '张小炎的小站',
   titleDelimiter: '-',
   url: 'https://kuizuo.cn',
   baseUrl: '/',
