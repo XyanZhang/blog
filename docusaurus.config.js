@@ -23,7 +23,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '愧怍',
+        content: '张小炎',
       },
       {
         name: 'keywords',
@@ -40,9 +40,9 @@ const config = {
       },
     },
     navbar: {
-      title: '愧怍',
+      title: '张小炎',
       logo: {
-        alt: '愧怍',
+        alt: '张小炎',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
@@ -189,7 +189,7 @@ const config = {
           ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
+      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 张小炎 Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -257,7 +257,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: '张小炎的个人博客',
       },
     },
   ],
@@ -301,7 +301,7 @@ const config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '愧怍的个人博客',
+        blogDescription: '张小炎的个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
         postsPerPage: 10,
@@ -310,8 +310,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: '张小炎',
+          copyright: `Copyright © ${new Date().getFullYear()} 张小炎 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],
