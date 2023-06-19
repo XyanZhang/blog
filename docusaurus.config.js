@@ -31,12 +31,12 @@ const config = {
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向，现在主攻ts全栈',
+        content: '编程爱好者, Web开发者, 前端开发者但不把自己局限于前端，目标会摄影的全栈工程师',
       },
     ],
     docs: {
       sidebar: {
-        hideable: true,
+        hideable: true, // 是否可以折叠侧边栏
       },
     },
     navbar: {
@@ -46,7 +46,7 @@ const config = {
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
-      hideOnScroll: true,
+      hideOnScroll: true, // 滚动时隐藏导航栏
       items: [
         {
           label: '学习',
