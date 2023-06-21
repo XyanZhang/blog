@@ -7,7 +7,7 @@ import type {
 } from '@docusaurus/plugin-content-blog'
 import Link from '@docusaurus/Link'
 import { Icon } from '@iconify/react'
-import { SocialLinks } from '@site/src/components/Hero'
+import SocialLinks from '@site/src/components/Hero/SocialLinks'
 import { useThemeConfig } from '@docusaurus/theme-common'
 import useBaseUrl from '@docusaurus/useBaseUrl'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
