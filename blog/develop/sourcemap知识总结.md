@@ -44,3 +44,14 @@ source-map: <https://www.npmjs.com/package/source-map>
 
 ## webpack 中sourcemap 配置
 
+### eval
+
+```js
+eval('console.log("hello world")') // 动态执行无法打断点
+
+// 解决办法
+// 在eval 前加上 //# sourceURL=xxx.js
+eval('//# sourceURL=xxx.js\nconsole.log("hello world")')
+```
+
+> 浏览器特性，在 eval 代码的最后加上 //# sourceURL=xxx，那就会以 xxx 为名字把这段代码加到 sources 里
